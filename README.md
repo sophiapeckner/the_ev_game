@@ -1,1 +1,2 @@
 # the_ev_game
+The EV Game aims to spread awareness of environmental issues associated with production and recycling of Lithium batteries, a core component of electric vehicles. To gamify this learning experience, players dodge obstacles and collect exclamation mark icons. The more exclamation mark icons collected, the more facts about Lithium batteries shown after GAME OVER. For further reading, an info sheet with a list of concerns surrounding the future of electric vehicles is included.
