@@ -60,7 +60,7 @@ function releaseFact() {
 function game_over() {
   rock.classList.remove("glideLeft")
   clearInterval(game_loop)
-  game_over_txt.innerHTML = "Game Over! You gained " + num_points + " points by driving green. <br /> Take a look at " + facts_collected + " shocking fact(s) about the future of electric vehicles!"
+  game_over_txt.innerHTML = "Game Over! You gained " + num_points + " points by driving green. <br /> Take a look at " + facts_collected + " fact(s) about the future of electric vehicles!"
 
   var fact_num = 1
   var fact_paragraph = ""
