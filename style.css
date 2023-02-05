@@ -89,6 +89,7 @@ li a.active {
   width: 600px;
   height: 200px;
   border: 1px solid;
+  margin: auto;
   background: center/cover url("images/road.png") no-repeat;
 }
 
@@ -103,6 +104,10 @@ li a.active {
 
 #game_over_text, #conclusion {
   width: 600px;
+}
+
+#game_over {
+  margin: auto;
 }
 
 /* game character animation */
