@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The EV Game</title>
+    <link href="facts.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <!-- nav bar -->
+     <ul>
+      <li><a href="index.html">The EV Game</a></li>
+      <li><a  class="active" href="facts.html">Info Sheet</a></li>
+    </ul>
+
+    <h1>Fact 1: Difficulties in Recycling</h1>
+    <p id="fact1">
+Lithium batteries, which power electric vehicles, are difficult to recycle. Only about 5% are recycled globally which is problematic considering an expected surge in lithium battery demand. One reason for recycling challenges is disassembly of the complex battery structure with tough glue bindings. Nissan’s Leaf Battery had a 2 hour disassembly time. Besides the time inefficiency, disassembly is also dangerous because of the chance of explosion. Therefore, it’s currently cheaper to create an entirely new battery.
+    </p>
+
+    <h1>Fact 2: Advancements in Lithium Battery Recycling</h1>
+    <p id="fact2">
+New technological advancements towards more effective recycling of electric vehicle’s Lithium batteries are propping up. The ReLib Project is exploring cheaper and more effective robotic disassembly. Prof. Lutkenhaus is researching more eco-friendly and degradable alternatives.
+    </p>
+
+    <h1>Fact 3: Resource Intensive to Mine & Transport Lithium</h1>
+    <p id="fact3">
+It’s resource intensive to mine metals for the Lithium batteries that power electric vehicles. For example, around 500,000 gallons of water--which can fill around 25 swimming pools--is required for one tonne of Lithium. This is especially detrimental for mines like Nevada’s Thacker Pass Mine which has sparse rainfall. Extracting this metal also requires a lot of electricity. Transporting this metal globally creates a carbon footprint. 
+    </p>
+
+    <h1>Fact 4: Inefficient Lithium Extraction</h1>
+    <p id="fact4">
+Inefficient extraction of Lithium--used to create electric vehicle’s battery--could strain efforts to meet current and future demand. A common way to mine Lithium is through Lithium-rich brine from underground lakes. This process takes around 12-28 months and only about 50% of lithium is recovered. Starting new mines is also challenging and takes an estimated time of 10 years to complete.
+    </p> 
+    
+    <h1>Fact 5: Lithium Industry Oligopoly</h1>
+    <p id="fact5">
+There is an oligopoly in the Lithium industry central to electric vehicle (EV) production. Chile, Argentina, Bolivia, and China are large players in the mining and supply chain of Lithium and therefore hold high pricing power. Besides national security threats, this could cause higher EV prices that could dissuade consumers from purchasing, and therefore slow strides towards a greener future.
+    </p>
+
+    <h1>Fact 6: Affect on Local Communities</h1>
+    <p id="fact6">
+Local communities are affected by mining of Lithium which is a core part of electric vehicle batteries. In Chile, these mines have resulted in declining vegetation, hotter temperatures, and increasing risk of drought. These effects are so pressing that efforts to create new mines to meet demand are stalled because of protests.
+    </p> 
+
+    <h1>References:</h1>
+      <p id="refrences">
+        <cite><a href="https://www.bbc.com/future/article/20220105-lithium-batteries-big-unanswered-question">Lithium batteries' big unanswered question</a></cite>
+        <br>
+        <cite><a href="https://www.science.org/content/article/millions-electric-cars-are-coming-what-happens-all-dead-batteries">A Dead Battery Dilemma</a></cite>
+        <br>
+        <cite><a href="https://www.bnnbloomberg.ca/the-trouble-with-lithium-1.1770692">The Trouble With Lithium</a></cite>
+        <br>
+        <cite><a href="https://www.deccanherald.com/opinion/panorama/evs-start-with-a-bigger-carbon-footprint-but-that-doesn-t-last-1156240.html">EVs start with a bigger carbon footprint. But that doesn’t last</a></cite>
+        <br>
+        <cite><a href="https://www.forbes.com/sites/rrapier/2022/01/20/is-a-lithium-cartel-inevitable/?sh=69d8be21b0b4">Is A Lithium Cartel Inevitable?</a>
+      </p>
+        
+      
+          
+<!--     <script src="script.js"></script> -->
+    <script>
+      localStorage.setItem("fact1", document.getElementById("fact1").innerHTML);
+      localStorage.setItem("fact2", document.getElementById("fact2").innerHTML);
+      localStorage.setItem("fact3", document.getElementById("fact3").innerHTML);
+      localStorage.setItem("fact4", document.getElementById("fact4").innerHTML);
+      localStorage.setItem("fact5", document.getElementById("fact5").innerHTML);
+      localStorage.setItem("fact6", document.getElementById("fact6").innerHTML);
+    </script>
+    
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  </body>
+
+</html>
